@@ -246,7 +246,7 @@ img {
     gap: 24px;
 }
 
-.service:first-child {
+.strategy-service {
     width: calc((100% - 72px) / 4); 
 }
 
