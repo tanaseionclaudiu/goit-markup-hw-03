@@ -100,8 +100,6 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-
-    /* no 3 */
     max-width: 496px;
 }
 
@@ -214,4 +212,8 @@ img {
 .right-navigation {
     display: flex;
     gap: 40px;
+}
+
+.section {
+    padding: 188px 0
 }
