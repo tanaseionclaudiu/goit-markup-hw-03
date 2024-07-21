@@ -202,13 +202,13 @@ img {
     list-style-type: none;
 }
 
-.menu-item
-, .menu-link {
-    padding: 24px 0;
-}
 
 .main-class {
     padding: 188px 0;
+}
+
+.menu-item, .menu-link {
+    padding: 24px 0;
 }
 
 .right-navigation {
@@ -249,8 +249,4 @@ img {
     flex-basis: calc((100% - 72px) / 4);
 }
 
-
-.strategy-service {
-    flex-basis: calc((100% - 3 * 24px) / 4);
-}
 
