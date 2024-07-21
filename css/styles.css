@@ -203,11 +203,12 @@ img {
 .right-navigation {
     display: flex;
     list-style-type: none;
-    gap: 40px
+    gap: 40px;
+    padding: 24px 0;
 }
 
 .left-navigation-item {
-    padding: 24px 0;
+
 }
 
 .main-class {
