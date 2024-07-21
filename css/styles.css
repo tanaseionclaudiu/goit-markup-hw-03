@@ -4,7 +4,7 @@ body {
     background-color: #FFFFFF;
 }
 
-<img {
+img {
     display: block;
 }
 
@@ -17,7 +17,7 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
 
-    margin-right: 75px;
+    margin-right: 76px;
 }
 
 .logo-highlight {
