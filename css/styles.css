@@ -221,6 +221,12 @@ img {
     padding: 188px 0
 }
 
+
+
+.services-section {
+    padding: 120px 0;
+}
+
 .visually_hidden {
     position: absolute;
     width: 1px;
@@ -234,16 +240,13 @@ img {
     overflow: hidden;
 }
 
-.services_list {
+.services-list {
     list-style-type: none;
     display: flex;
     gap: 24px;
 }
 
-.service {
+.strategy-service {
     width: calc((100% - 72px) / 4); 
 }
 
-.services-section {
-    padding: 120px 0;
-}
