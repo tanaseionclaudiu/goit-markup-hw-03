@@ -202,7 +202,7 @@ img {
     list-style-type: none;
 }
 
-.left-navigation-item {
+.left-navigation-item:first-child {
     padding: 24px 0;
 }
 
