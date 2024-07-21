@@ -207,7 +207,8 @@ img {
     padding: 188px 0;
 }
 
-.menu-item, .menu-link {
+.menu-item,
+.menu-link {
     padding: 24px 0;
 }
 
@@ -233,9 +234,9 @@ img {
     margin: -1px;
     border: 0;
     padding: 0;
-    white-space:nowrap;
+    white-space: nowrap;
     clip-path: inset(100%);
-    clip: rect(0 0 0 0 );
+    clip: rect(0 0 0 0);
     overflow: hidden;
 }
 
@@ -249,4 +250,6 @@ img {
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
-
+.team-section {
+    padding: 120px 0;
+}
