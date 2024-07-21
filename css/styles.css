@@ -29,6 +29,11 @@ ul {
     color: #2e2f42;
 }
 
+.menu-item,
+.menu-link {
+    padding: 24px 0;
+}
+
 .menu-link {
     font-weight: 500;
     font-size: 16px;
@@ -42,21 +47,11 @@ ul {
     color: #404bbf;
 }
 
-.address {
-    font-style: normal;
+.menu {
+    display: flex;
+    gap: 40px;
 }
 
-.address-link {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455
-}
-
-.address-link:hover,
-.address-link:focus {
-    color: #404bbf;
-}
 
 
 
@@ -159,6 +154,8 @@ ul {
 
 .top-menu {
     display: flex;
+    align-items: center;
+    justify-content: space-between
 }
 
 .container {
@@ -172,21 +169,28 @@ ul {
     align-items: center;
 }
 
-.menu {
-    display: flex;
-    gap: 40px;
-}
-
-
-.menu-item,
-.menu-link {
-    padding: 24px 0;
-}
 
 .right-navigation {
     display: flex;
     gap: 40px;
 }
+
+.address {
+    font-style: normal;
+}
+
+.address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf;
+}
+
 
 .section-hero {
     padding: 188px 0;
