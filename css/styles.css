@@ -55,8 +55,7 @@ img {
 
 .section {
     margin: 120px 0;
-    border-bottom: 1 px solid currentColor;
-    padding: 120px 0;
+    border-bottom: 1px solid currentColor;
 }
 
 .section-odd {
@@ -242,5 +241,9 @@ img {
 }
 
 .service {
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4); 
+}
+
+.services-section {
+    padding: 120px 0;
 }
