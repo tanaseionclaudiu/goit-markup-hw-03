@@ -18,6 +18,7 @@ img {
     color: #4d5ae5;
 
     margin-right: 76px;
+    padding: 24px 0;
 }
 
 .logo-highlight {
@@ -207,7 +208,7 @@ img {
 }
 
 .left-navigation-item {
-    padding: 24px 0;
+
 }
 
 .main-class {
