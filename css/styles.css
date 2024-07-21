@@ -2,10 +2,11 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
-
-    width: 1158px;
 }
 
+<img {
+    display: block;
+}
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -16,8 +17,7 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
 
-    padding-top: 20px;
-
+    margin-right: 75px;
 }
 
 .logo-highlight {
@@ -168,16 +168,25 @@ body {
     letter-spacing: 0.02em;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
+.header-class {
     margin: 0 156px;
-    border-bottom: 2px solid #efefef;
+    border-bottom: 1px solid #e7e9fc;
 }
 
-
-nav {
+.top-menu {
     display: flex;
+    /* justify-content: space-between; */
+}
+
+.top-menu-width {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
     gap: 76px
 }
 
@@ -186,4 +195,8 @@ nav {
     display: flex;
     list-style-type: none;
     gap: 40px
+}
+
+.left-navigation-item {
+    padding: 24 0
 }
