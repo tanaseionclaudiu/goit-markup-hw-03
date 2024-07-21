@@ -56,6 +56,7 @@ img {
 .section {
     margin: 120px 0;
     border-bottom: 1 px solid currentColor;
+    padding: 120px 0;
 }
 
 .section-odd {
@@ -68,6 +69,7 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    max-width: 496px;
 }
 
 .button-order-service {
@@ -101,6 +103,7 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     max-width: 496px;
+    margin-bottom: 8px;
 }
 
 .service-description {
@@ -216,4 +219,18 @@ img {
 
 .section {
     padding: 188px 0
+}
+
+.visually_hidden {
+    display: none;
+}
+
+.services_list {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+.service {
+    flex-basis: calc((100% - 72px) / 4))
 }
