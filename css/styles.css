@@ -196,13 +196,14 @@ img {
     align-items: center;
 }
 
-.left-navigation {
+.menu {
     display: flex;
     gap: 40px;
     list-style-type: none;
 }
 
-.left-navigation-item:first-child {
+.menu-item
+, .menu-link {
     padding: 24px 0;
 }
 
