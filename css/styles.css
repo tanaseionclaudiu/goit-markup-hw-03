@@ -184,7 +184,6 @@ img {
 
 .top-menu {
     display: flex;
-    /* justify-content: space-between; */
 }
 
 .container {
@@ -208,7 +207,7 @@ img {
 }
 
 .left-navigation-item {
-
+    padding: 24px 0;
 }
 
 .main-class {
