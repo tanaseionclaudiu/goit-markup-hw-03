@@ -112,12 +112,11 @@ img {
 
 .section-team {
     background-color: #F4F4FD;
-}
-
-
-.team-section {
     padding: 120px 0;
 }
+
+
+
 
 .team-members {
     display: flex;
@@ -266,5 +265,5 @@ img {
 }
 
 .service {
-    flex-basis: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
